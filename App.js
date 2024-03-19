@@ -4,6 +4,7 @@ import Button from './components/Button';
 import { useState } from 'react';
 import { GestureHandlerRootView } from "react-native-gesture-handler";
 import * as Haptics from 'expo-haptics';
+import * as SplashScreen from 'expo-splash-screen';
 import {HDate} from '@hebcal/core';
 import OpenAI from 'openai';
 
