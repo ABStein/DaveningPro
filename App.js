@@ -13,7 +13,7 @@ export default function App() {
 
     // have fun knowing what to daven today
     const openai = new OpenAI({
-        apiKey: process.env.OPENAI_API_KEY,
+        apiKey: process.env.EXPO_PUBLIC_OPENAI_API_KEY,
     });
 
     const getDavening = async () => {
